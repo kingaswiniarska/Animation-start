@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: auto;
+    background-color:grey;
+}
+
+h1{
+    text-align: center;
+    animation: animacja infinite 3s;
+}
+
+@keyframes animacjas{
+    0% {
+		background-color: red;
+	}
+	10% {
+		background-color: orange;
+	}
+	20% {
+		background-color: yellow;
+	}
+	30% {
+		background-color: lime;
+	}
+	40% {
+		background-color: green;
+	}
+	50% {
+		background-color: cyan;
+	}
+	60% {
+		background-color: blue;
+	}
+	70% {
+		background-color: purple;
+	}
+	80% {
+		background-color: violet;
+	}
+	90% {
+		background-color: pink;
+	}
+	100% {
+		background-color: red;
+	}
+}
+
+.first{
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    animation: block linear 5s ;
+}
+
+@keyframes block{
+    0%{
+
+    }
+    25%{
+        
+    }
+    50%{
+        
+    }
+    70%{
+        
+    }
+    100%{
+        
+    }
+}
+
+.second{
+	margin: 80px auto 0;
+	font-size: 70px;
+	width: 1em;
+	height: 1em;
+	border-radius: 50%;
+	animation: animation 1.7s infinite ease;
+}
+
+@keyframes animation {
+	0% {
+		transform: rotate(0deg);
+		box-shadow: 0 -0.83em 0 -0.4em #F34A53, 0 -0.83em 0 -0.42em #F34A53, 0 -0.83em 0 -0.44em #F34A53, 0 -0.83em 0 -0.46em #F34A53, 0 -0.83em 0 -0.477em #F34A53;
+	}
+	5%,
+	95% {
+		box-shadow: 0 -0.83em 0 -0.4em #F34A53, 0 -0.83em 0 -0.42em #F34A53, 0 -0.83em 0 -0.44em #F34A53, 0 -0.83em 0 -0.46em #F34A53, 0 -0.83em 0 -0.477em #F34A53;
+	}
+	10%,
+	59% {
+		box-shadow: 0 -0.83em 0 -0.4em #F34A53, -0.087em -0.825em 0 -0.42em #F34A53, -0.173em -0.812em 0 -0.44em #F34A53, -0.256em -0.789em 0 -0.46em #F34A53, -0.297em -0.775em 0 -0.477em #F34A53;
+	}
+	20% {
+		box-shadow: 0 -0.83em 0 -0.4em #F34A53, -0.338em -0.758em 0 -0.42em #F34A53, -0.555em -0.617em 0 -0.44em #F34A53, -0.671em -0.488em 0 -0.46em #F34A53, -0.749em -0.34em 0 -0.477em #F34A53;
+	}
+	38% {
+		box-shadow: 0 -0.83em 0 -0.4em #F34A53, -0.377em -0.74em 0 -0.42em #F34A53, -0.645em -0.522em 0 -0.44em #F34A53, -0.775em -0.297em 0 -0.46em #F34A53, -0.82em -0.09em 0 -0.477em #F34A53;
+	}
+	100% {
+		transform: rotate(360deg);
+		box-shadow: 0 -0.83em 0 -0.4em #F34A53, 0 -0.83em 0 -0.42em #F34A53, 0 -0.83em 0 -0.44em #F34A53, 0 -0.83em 0 -0.46em #F34A53, 0 -0.83em 0 -0.477em #F34A53;
+	}
+}
